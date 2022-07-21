@@ -67,12 +67,13 @@ main {
 .menu {
   display: flex;
   flex-direction: column;
-
+  row-gap: 17px;
   background-color: #161616;
   width: 312px;
   height: 312px;
   align-items: center;
   border-radius: 10px;
+  justify-content: center;
 }
 .menu a {
   text-decoration: none;
@@ -83,7 +84,6 @@ main {
   width: 80%;
   border-radius: 10px;
   text-align: center;
-  margin-top: 30px;
 }
 .cards {
   width: 80%;
@@ -117,8 +117,38 @@ main {
 .info {
   display: flex;
   column-gap: 30px;
+  margin-bottom: 20px;
 }
 .icons {
   padding-right: 10px;
   margin: 15px 0 15px 20px;
+}
+/* footer section  */
+footer {
+  margin-top: 130px;
+  background-color: #161616;
+  color: wheat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.goal {
+  font-size: 40px;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 130px 750px 0;
+}
+footer hr {
+  width: 80%;
+  border: 1px solid #ffffff13;
+  margin: 50px 0;
+}
+.footer-menu {
+  margin-bottom: 130px;
+}
+.footer-menu a {
+  text-decoration: none;
+  color: #b9b9b9;
+  font-size: 16px;
+  padding-right: 70px;
 }
